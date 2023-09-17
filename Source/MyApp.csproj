@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <PackageIcon>applications-development.png</PackageIcon>
+    <ApplicationIcon>applications-development.ico</ApplicationIcon>
+    <AssemblyVersion>1.2.3</AssemblyVersion>
+    <FileVersion>1.2.3</FileVersion>
+    <Title>MyApp 1.2.3</Title>
+    <Authors>John DOE</Authors>
+    <Company>ACME Ltd.</Company>
+    <Description>This is an example for the description for UI display.</Description>
+    <Copyright>By John DOE</Copyright>
+    <PackageProjectUrl>https://example.domain.acme.com/</PackageProjectUrl>
+    <PackageTags>minimal;example;wpf;windows;application</PackageTags>
+    <PackageReleaseNotes>There are no release notes</PackageReleaseNotes>
+    <Version>1.2.3</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="applications-development.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\pedra\Downloads\Images\_Nuvola\nuvola\128x128\categories\applications-development.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
